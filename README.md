@@ -1,5 +1,3 @@
-# Ejercicio 04 
-## _Números Pares en un Rango En PHP y HTML_
-Realice un programa de preguntas donde el usuario contestará con verdadero o falso. Se implementará el uso de radio buttons y cada pregunta contestada correctamente sumará 3 puntos. El test utilizado para este proyecto será sobre la serie televisiva “Los Simpsons”, realizando afirmaciones como: Sólo un personaje en la serie tiene cinco dedos en lugar de cuatro. (Dios - Verdadero), El hermano de Lisa Simpson se llama Bart. (Verdadero), El creador de los Simpson elige al azar los nombres de los personajes. (Usa nombre de sus familiares – Falso), MilHouse es hermano de Ralph. (Falso). Homero tiene 6 hijos. (Falso).
-
-El mensaje mostrado será acorde al resultado obtenido.
+# Quiz Interactivo sobre Los Simpson
+## _Área: Actividades_
+Esta actividad web consiste en un quiz interactivo sobre la popular serie animada "Los Simpson". Los usuarios responden a una serie de preguntas de opción múltiple y, tras enviar sus respuestas, reciben una evaluación de su conocimiento sobre la serie. La aplicación utiliza HTML y CSS para la interfaz de usuario, y PHP para el procesamiento y evaluación de las respuestas.
