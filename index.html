@@ -1,35 +1,81 @@
-<html>
-<head>
-<meta charset="UTF-8">
-</head>
-<body>
-<h2>Test Los Simpson</h2>
-<form action="ejercicio.php" method="POST">
-
-<h4>1.-Sólo un personaje en la serie tiene cinco dedos en lugar de cuatro.</h4>
-<input type="radio" name="PreguntaUno" value="v">Verdadero<br>
-<input type="radio" name="PreguntaUno" value="f">Falso
-
-<h4>2.-El hermano de Lisa Simpson se llama Bart.</h4>
-<input type="radio" name="PreguntaDos" value="v">Verdadero<br>
-<input type="radio" name="PreguntaDos" value="f">Falso
-
-<h4>3.- El creador de los Simpson elige al azar los nombres de los personajes.</h4>
-<input type="radio" name="PreguntaTres" value="v">Verdadero<br>
-<input type="radio" name="PreguntaTres" value="f">Falso
-
-<h4>4.- MilHouse es hermano de Ralph.</h4>
-<input type="radio" name="PreguntaCuatro" value="v">Verdadero<br>
-<input type="radio" name="PreguntaCuatro" value="f">Falso
-
-<h4>5.- Homero tiene 6 hijos.</h4>
-<input type="radio" name="PreguntaCinco" value="v">Verdadero<br>
-<input type="radio" name="PreguntaCinco" value="f">Falso <br>
-
-<br>
-
-<input type="submit" value="Resultado">
-
-</form>
-</body>
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Quiz Interactivo sobre Los Simpson</title>
+		<link rel="icon" href="../../assets/img/logo.png">
+		<link rel="apple-touch-icon" href="../../assets/img/logo-grande.png">
+		<style>
+			body {
+				font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+				background-color: #f8f9fa;
+				margin: 0;
+				padding: 0;
+			}
+			h2 {
+				text-align: center;
+				color: #007bff;
+				margin-top: 50px;
+			}
+			.container {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				height: 100vh;
+			}
+			form {
+				max-width: 600px;
+				padding: 30px;
+				background-color: #fff;
+				border-radius: 10px;
+				box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1);
+			}
+			h4 {
+				margin-top: 20px;
+				margin-bottom: 10px;
+				color: #333;
+			}
+			input[type="radio"] {
+				margin-bottom: 20px;
+			}
+			input[type="submit"] {
+				display: block;
+				width: 100%;
+				background-color: #007bff;
+				color: #fff;
+				padding: 15px;
+				border: none;
+				border-radius: 5px;
+				cursor: pointer;
+				transition: background-color 0.3s ease;
+			}
+			input[type="submit"]:hover {
+				background-color: #0056b3;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<form action="ejercicio.php" method="POST">
+				<h2>Test Los Simpson</h2>
+				<h4>1.- Sólo un personaje en la serie tiene cinco dedos en lugar de cuatro.</h4>
+				<input type="radio" name="PreguntaUno" value="v">Verdadero<br>
+				<input type="radio" name="PreguntaUno" value="f">Falso<br>
+				<h4>2.- El hermano de Lisa Simpson se llama Bart.</h4>
+				<input type="radio" name="PreguntaDos" value="v">Verdadero<br>
+				<input type="radio" name="PreguntaDos" value="f">Falso<br>
+				<h4>3.- El creador de Los Simpson elige al azar los nombres de los personajes.</h4>
+				<input type="radio" name="PreguntaTres" value="v">Verdadero<br>
+				<input type="radio" name="PreguntaTres" value="f">Falso<br>
+				<h4>4.- Milhouse es hermano de Ralph.</h4>
+				<input type="radio" name="PreguntaCuatro" value="v">Verdadero<br>
+				<input type="radio" name="PreguntaCuatro" value="f">Falso<br>
+				<h4>5.- Homero tiene 6 hijos.</h4>
+				<input type="radio" name="PreguntaCinco" value="v">Verdadero<br>
+				<input type="radio" name="PreguntaCinco" value="f">Falso<br>
+				<input type="submit" value="Resultado">
+			</form>
+		</div>
+	</body>
 </html>
